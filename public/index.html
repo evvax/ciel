@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/glass-navbar.css">
     <link rel="stylesheet" href="css/mic-status.css">
     <link rel="stylesheet" href="css/messages-panel.css">
+    <link rel="stylesheet" href="css/call-panel.css">
   </head>
   <body>
     <!-- Background color -->
@@ -26,9 +27,13 @@
       <button class="nav-item" data-section="games">
         <i class="fa-solid fa-gamepad"></i>
       </button>
-      <button class="nav-item" data-section="phones">
+      <button class="nav-item call-btn" data-section="call">
         <i class="fa-solid fa-phone"></i>
       </button>
+    </div>
+    <!-- Call Panel -->
+    <div id="callPanel" class="call-panel">
+      <span id="callTimer">00:00</span>
     </div>
     <!-- Messages -->
     <div class="messages-panel" id="messagesPanel">
@@ -42,5 +47,6 @@
     <!-- JS -->
     <script src="js/mic-status.js"></script>
     <script src="js/messages-panel.js"></script>
+    <script src="js/call-panel.js"></script>
   </body>
 </html>

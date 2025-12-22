@@ -6,20 +6,23 @@ let messagesState = 'closed';
 let tapTimeout = null;
 const TAP_DELAY = 300;
 
-messagesBtn.addEventListener('click', () => {
-  if (tapTimeout) {
-    clearTimeout(tapTimeout);
-    tapTimeout = null;
-    handleDoubletap();
-  } else {
-    tapTimeout = setTimeout(() => {
-      handleSingletap();
+if (messagesBtn && messagesPanel) {
+  messagesBtn.addEventListener('pointerup', (e) => {
+    e.preventDefault();
+    if (tapTimeout) {
+      clearTimeout(tapTimeout);
       tapTimeout = null;
-    }, TAP_DELAY);
-  }
-});
+      handleDoubleTap();
+    } else {
+      tapTimeout = setTimeout(() => {
+        handleSingleTap();
+        tapTimeout = null;
+      }, TAP_DELAY);
+    }
+  });
+}
 
-function handleSingletap() {
+function handleSingleTap() {
   if (messagesState === 'closed') {
     openHalf();
   } else {
@@ -27,7 +30,7 @@ function handleSingletap() {
   }
 }
 
-function handleDoubletap() {
+function handleDoubleTap() {
   if (messagesState === 'full') {
     closePanel();
   } else {

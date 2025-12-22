@@ -1,9 +1,11 @@
-# Ciel App
+# Ciel App v0.3
 
 Latest changes: 
 
-- Messages panel working at closed, half & full.
+- Call panel, Call button working & Call timer
 
 Pre-version:
 
 - Added Mic status
+
+- Messages Panel
