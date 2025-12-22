@@ -1,0 +1,7 @@
+.glass-navbar .mic-btn i {
+ color: rgba(255, 255, 255, 0.8); 
+}
+
+.glass-navbar .mic-btn.muted i {
+  color: #ff0000;
+}

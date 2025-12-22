@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciel</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/glass-navbar.css">
+    <link rel="stylesheet" href="css/mic-status.css">
+    <link rel="stylesheet" href="css/messages-panel.css">
+  </head>
+  <body>
+    <!-- Background color -->
+    <div class="background"></div>
+    <!-- Navbar -->
+    <div class="glass-navbar" id="glass-navbar">
+      <button class="nav-item" data-section="messages">
+        <i class="fa-solid fa-message"></i>
+      </button>
+      <button class="nav-item mic-btn" data-section="microphone">
+        <i class="fa-solid fa-microphone"></i>
+      </button>
+      <button class="nav-item" data-section="games">
+        <i class="fa-solid fa-gamepad"></i>
+      </button>
+      <button class="nav-item" data-section="phones">
+        <i class="fa-solid fa-phone"></i>
+      </button>
+    </div>
+    <!-- Messages -->
+    <div class="messages-panel" id="messagesPanel">
+      <div class="messages-header">
+        <h3>Messages</h3>
+      </div>
+      <div class="messages-content">
+        <p>Here you can find the messages...</p>
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="js/mic-status.js"></script>
+    <script src="js/messages-panel.js"></script>
+  </body>
+</html>
