@@ -1,11 +1,9 @@
-# Ciel App v0.3
+# Ciel App v0.4
 
-Latest changes: 
+Latest changes:
 
-- Call panel, Call button working & Call timer
+- Messages Panel update: input style, message style,
 
 Pre-version:
 
-- Added Mic status
-
-- Messages Panel
+- Call panel, Call button working & Call timer
