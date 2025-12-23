@@ -1,6 +1,8 @@
-# Ciel App v0.7.1
+# Ciel App v0.7.2
 
 Fast changes:
+
+- Color of messages input (focus) changed to better look.
 
 - Bug fixed: mic-toast muted doesn't change to red.
 
