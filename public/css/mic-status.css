@@ -33,6 +33,6 @@
   transform: translateX(-50%) translateY(0);
 }
 
-.mic-toast.muted {
+.mic-btn.muted {
   color: #ff3b3b;
 }

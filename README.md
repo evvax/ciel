@@ -1,4 +1,4 @@
-# Ciel App v0.6
+# Ciel App v0.6.1
 
 Latest changes:
 
