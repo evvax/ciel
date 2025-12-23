@@ -10,9 +10,23 @@ messageForm.addEventListener('submit', (e) => {
 
   const msgEl = document.createElement('div');
   msgEl.className = 'message';
-  msgEl.textContent = text;
-  messagesContainer.appendChild(msgEl);
 
-  messagesContainer.prpend(msgEl);
+  const timeEl = document.createElement('span');
+  timeEl.className = 'message-time';
+  
+  const now = new Date();
+  timeEl.textContent = now.toLocaleTimeString([], {
+    hour: '2-digit',
+    minute: '2-digit'
+  });
+
+  const textEl = document.createElement('span');
+  textEl.className = 'message-text';
+  textEl.textContent = text;
+
+  msgEl.appendChild(textEl);
+  msgEl.appendChild(timeEl);
+
+  messagesContainer.appendChild(msgEl);
   messageInput.value = '';
 });
