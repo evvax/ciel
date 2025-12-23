@@ -1,13 +1,15 @@
-# Ciel App v0.4
+# Ciel App v0.6
 
 Latest changes:
+
+- Bug fixed: scroll doesn't work in message section.
+
+- Adding mic & call toast.
+
+Pre -changes:
 
 - Fix message padding
 
 - Message hour added
 
 - Bug fixed: Input clean after message
-
-Pre-version:
-
-- Messages Panel update: input style, message style,

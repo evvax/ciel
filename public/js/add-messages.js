@@ -27,6 +27,6 @@ messageForm.addEventListener('submit', (e) => {
   msgEl.appendChild(textEl);
   msgEl.appendChild(timeEl);
 
-  messagesContainer.appendChild(msgEl);
+  messagesContainer.prepend(msgEl);
   messageInput.value = '';
 });
