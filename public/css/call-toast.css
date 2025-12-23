@@ -26,5 +26,5 @@
 }
 
 .call-btn.in-call i {
-  color: #ff3b3b;
+  color: #ff3b3b !important;
 }

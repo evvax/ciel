@@ -88,8 +88,7 @@ button, input {
 }
 
 .message-text {
-  font-family: system-ui;
-  font-weight: 600; 
+  flex: 1;
 }
 .message-time {
   font-size: 0.9rem;
@@ -100,35 +99,32 @@ button, input {
 
 .message.outgoing {
   display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  align-items: center;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.25);
+}
+
+.message.outgoing .message-time {
+  color: rgba(255, 255, 255, 0.5);
+  order: 0;
 }
 
 .message.outgoing .message-text {
   color: #000;
   order: 1;
-  opacity: 0.85;
-}
-
-.message.outgoing .message-time {
-  color: rgba(0, 0, 0, 1);
-  order: 0;
 }
 
 .message.incoming {
-  display: flex;
-  justify-content: space-between;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .message.incoming .message-text {
-  flex: 1;
   color: #fff;
   order: 0;
-  opacity: 0.7;
 }
 
 .message.incoming .message-time {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255,255,255,0.4);
   order: 1;
 }
