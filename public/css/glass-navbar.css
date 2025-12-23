@@ -1,7 +1,7 @@
 .glass-navbar {
   position: fixed;
   left: 50%;
-  bottom: 50px;
+  bottom: 3vh;
   transform: translateX(-50%);
   width: 340px;
   height: 80px;

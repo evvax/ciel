@@ -1,0 +1,56 @@
+.index-panel {
+  position: fixed;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 45vh;
+  width: 90vw;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow:
+    inset 0 0 10px rgba(255, 255, 255, 0.1),
+    0 8px 20px rgba(0, 0, 0, 0.2);
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.index-form {
+  display: flex;
+  width: 100%;
+  border: none;
+  padding: 15px 15px 10px 15px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.index-form input {
+  flex: 0 0 auto;
+  width: clamp(55%, 95%, 95%);
+  max-width: 340px;
+  min-width: 280px;
+  padding: 0px 15px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  color: white;
+  font-size: 16px;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.index-form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.index-form input:focus {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.03);
+}

@@ -1,11 +1,19 @@
-# Ciel App 0.9
+# Ciel App 1.0.0
 
-Latest changes:
+Big update:
+
+- User profile panel. (uncompleted)
+
+- Change profile picture option.
+
+- Activities panel + search bar. (uncompleted)
+
+- Icons changed: Messages & Games.
+
+- Bug fixed: transition message bar.
+
+Pre changes:
 
 - Fixing bugs in dynamic toast.
 
 - Presenting profile section + avatar icon change.
-
-Pre changes:
-
-- Adding dynamic toast: Now all-in status in the same toast (muted, unmuted, in-call, timer)
