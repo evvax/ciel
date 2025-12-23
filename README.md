@@ -2,8 +2,12 @@
 
 Latest changes:
 
-- Messages Panel update: input style, message style,
+- Fix message padding
+
+- Message hour added
+
+- Bug fixed: Input clean after message
 
 Pre-version:
 
-- Call panel, Call button working & Call timer
+- Messages Panel update: input style, message style,
