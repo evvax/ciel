@@ -1,21 +1,11 @@
-# Ciel App v0.7.2
+# Ciel App 0.8
 
-Fast changes:
+- Latest changes:
 
-- Color of messages input (focus) changed to better look.
+- Adding dynamic toast: Now all-in status in the same toast (muted, unmuted, in-call, timer)
 
-- Bug fixed: mic-toast muted doesn't change to red.
-
-- Change in Toast: mic-toast over call-toast now.
-
-Latest changes:
+Pre changes:
 
 - Incoming & Outgoing messages: Colors, position, order.
 
 - Fixing Mic & Call toast.
-
-Pre changes:
-
-- Bug fixed: scroll doesn't work in message section.
-
-- Adding mic & call toast.

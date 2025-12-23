@@ -9,9 +9,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/background.css">
     <link rel="stylesheet" href="css/glass-navbar.css">
-    <link rel="stylesheet" href="css/mic-status.css">
+    <link rel="stylesheet" href="css/mic-call-btn.css">
     <link rel="stylesheet" href="css/messages-panel.css">
-    <link rel="stylesheet" href="css/call-toast.css">
+    <link rel="stylesheet" href="css/mic-toast.css">
   </head>
   <body>
     <!-- Background color -->
@@ -31,10 +31,8 @@
         <i class="fa-solid fa-phone"></i>
       </button>
     </div>
-    <!-- Mic Toast -->
-    <div id="micToast" class="mic-toast">Muted</div>
-    <!-- Call Toast -->
-    <div id="callToast" class="call-toast">00:00</div>
+    <!-- Dynamic Toast -->
+    <div id="actionToast" class="mic-toast"></div> 
     <!-- Messages -->
     <div id="messagesPanel" class="messages-panel">
       <form id="messageForm" class="message-form">
@@ -43,11 +41,8 @@
       <div class="messages-container"></div>
     </div>
     <!-- JS -->
-    <script src="js/mic-status.js"></script>
     <script src="js/messages-panel.js"></script>
     <script src="js/add-messages.js"></script>
-    <script src="js/call-panel.js"></script>
-    <!-- JS Test -->
-    <script src="js/incoming-message.js"></script>
+    <script src="js/mic-toast.js"></script>
   </body>
 </html>
