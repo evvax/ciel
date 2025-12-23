@@ -12,12 +12,24 @@
     <link rel="stylesheet" href="css/mic-call-btn.css">
     <link rel="stylesheet" href="css/messages-panel.css">
     <link rel="stylesheet" href="css/mic-toast.css">
+    <link rel="stylesheet" href="css/user-panel.css">
   </head>
   <body>
     <!-- Background color -->
     <div class="background"></div>
+    <!-- Info, Widgets, Music, etc. -->
+    <div id="wrapper-panels" class="wrapper-panels">
+      <div id="user-panel" class="user-panel">
+        <div id="user-avatar" class="user-avatar">
+          <div class="avatar-overlay">
+            <i class="fa-solid fa-image"></i>
+          </div>
+          <input type="file" accept="image/*" id="avatar-input" hidden />
+        </div>
+      </div>
+    </div>
     <!-- Navbar -->
-    <div class="glass-navbar" id="glass-navbar">
+    <div id="glass-navbar" class="glass-navbar">
       <button class="nav-item messages-btn" data-section="messages">
         <i class="fa-solid fa-message"></i>
       </button>
@@ -32,7 +44,7 @@
       </button>
     </div>
     <!-- Dynamic Toast -->
-    <div id="actionToast" class="mic-toast"></div> 
+    <div id="actionToast" class="mic-toast"></div>
     <!-- Messages -->
     <div id="messagesPanel" class="messages-panel">
       <form id="messageForm" class="message-form">
@@ -44,5 +56,6 @@
     <script src="js/messages-panel.js"></script>
     <script src="js/add-messages.js"></script>
     <script src="js/mic-toast.js"></script>
+    <script src="js/user-avatar.js"></script>
   </body>
 </html>
