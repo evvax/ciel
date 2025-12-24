@@ -1,4 +1,4 @@
-# Ciel App 1.0.0
+# Ciel App 1.0.1
 
 Big update:
 
@@ -6,7 +6,7 @@ Big update:
 
 - Change profile picture option.
 
-- Activities panel + search bar. (uncompleted)
+- Activities panel + search bar + clickeable icon. (COMPLETE NOW, waiting to add Activities)
 
 - Icons changed: Messages & Games.
 

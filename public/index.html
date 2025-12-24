@@ -21,19 +21,21 @@
     <!-- Info, Widgets, Music, etc. -->
     <div id="wrapper-panels" class="wrapper-panels">
       <!-- User panel -->
-      <div id="user-panel" class="user-panel">
-        <div id="user-avatar" class="user-avatar">
+      <div id="userPanel" class="user-panel">
+        <div id="userAvatar" class="user-avatar">
           <div class="avatar-overlay">
             <i class="fa-solid fa-image"></i>
           </div>
-          <input type="file" accept="image/*" id="avatar-input" hidden />
+          <input type="file" accept="image/*" id="avatarInput" hidden />
         </div>
       </div>
       <!-- Index -->
       <div id="index-panel" class="index-panel">
-        <form id="indexForm" class="index-form">
-          <input type="text" id="indexInput" placeholder="Search for activities" autocomplete="off">
-        </form>
+        <div id="index-sbox" class="index-sbox">
+          <input type="text" id="indexInput" class="index-input" placeholder="Search for activities" autocomplete="off">
+          <i id="searchBtn" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
       </div>
     </div>
     <!-- Navbar -->
@@ -65,5 +67,6 @@
     <script src="js/add-messages.js"></script>
     <script src="js/mic-toast.js"></script>
     <script src="js/user-avatar.js"></script>
+    <script src="js/search-index-panel.js"></script>
   </body>
 </html>

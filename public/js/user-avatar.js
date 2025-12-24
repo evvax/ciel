@@ -1,5 +1,5 @@
-const avatar = document.getElementById("user-avatar");
-const input = document.getElementById("avatar-input");
+const avatar = document.getElementById("userAvatar");
+const input = document.getElementById("avatarInput");
 const overlay = document.querySelector(".avatar-overlay");
 
 if ('ontouchstart' in window) {
