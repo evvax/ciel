@@ -1,4 +1,4 @@
-# Ciel App 1.0.1
+# Ciel App 1.0.2
 
 Big update:
 
@@ -10,7 +10,7 @@ Big update:
 
 - Icons changed: Messages & Games.
 
-- Bug fixed: transition message bar.
+- Bug fixed: transition message bar, clic on search icon.
 
 Pre changes:
 

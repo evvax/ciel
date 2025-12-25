@@ -48,6 +48,15 @@
   cursor: pointer;
   color: white;
   z-index: 2;
+  outline: none !important;
+  background: none !important;
+  box-shadow: none;
+  appearance: none;
+  touch-manipulation: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
 }
 
 .index-input {
