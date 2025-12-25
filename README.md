@@ -1,6 +1,8 @@
-# Ciel App 1.0.2
+# Ciel App 1.0.3
 
 Big update:
+
+- Introducing: Recent Activities. (uncompleted)
 
 - User profile panel. (uncompleted)
 

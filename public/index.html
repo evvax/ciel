@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/messages-panel.css">
     <link rel="stylesheet" href="css/mic-toast.css">
     <link rel="stylesheet" href="css/user-panel.css">
+    <link rel="stylesheet" href="css/recent-panel.css">
     <link rel="stylesheet" href="css/index-panel.css">
   </head>
   <body>
@@ -29,13 +30,18 @@
           <input type="file" accept="image/*" id="avatarInput" hidden />
         </div>
       </div>
+      <!-- Recent activities -->
+      <div id="recentPanel" class="recent-panel">
+        <div class="recent-box"></div>
+        <div class="recent-box"></div>
+        <div class="recent-box"></div>
+      </div>
       <!-- Index -->
       <div id="index-panel" class="index-panel">
         <div id="index-sbox" class="index-sbox">
           <input type="text" id="indexInput" class="index-input" placeholder="Search for activities" autocomplete="off">
           <i id="searchBtn" class="fa-solid fa-magnifying-glass"></i>
         </div>
-
       </div>
     </div>
     <!-- Navbar -->
